@@ -1,4 +1,5 @@
 **Bible-Sentiment-Analysis**
+
 A collection of python code analyzing the sentiment and word usage in different translations of the bible.
 
 There are many translations of the bible. Some are literal word for word translations, some care more about literal meanings, and some are paraphrased. My question was, "Do these translations convey a considerable diffence in tone from one another?" By applying a sentiment analysis on each verse we can answer this question. The source data is each bible in a raw text file that I got from https://openbible.com/texts.htm. At first I wrote this to analyze one at a time but once I did that I decided to make it itterate over the whole list. It must have been fairly intensive because it took my 1260p 16G ram machine over 24 minutes to run through it. Not sure if that's good or bad considering it was roughly 342, 144 individual verses.
